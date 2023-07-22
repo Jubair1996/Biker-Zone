@@ -32,6 +32,8 @@
           extend: {
             colors: {
               "bike-primary": "#E76F51",
+              "latest-primary": "#18191F",
+              "latest-secondary": "#6C6C6C",
               "bike-primary-bg": "rgba(231, 111, 81, 0.10)",
             },
           },
@@ -72,7 +74,7 @@
                 <li><a href="">Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost normal-case text-4xl">Biker Zone</a>
+            <a class="btn btn-ghost normal-case text-xl lg:text-4xl">Biker Zone</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu text-base menu-horizontal px-1">
@@ -91,9 +93,9 @@
       <!-- Carousel Section Starts -->
       <div class="carousel w-full h-[550px] rounded-lg bg-bike-primary-bg">
         <div id="slide1" class="carousel-item relative w-full">
-         <div class="flex flex-col lg:flex-row justify-center items-center pt-32 p-6 lg:p-24">
+         <div class="flex flex-col lg:flex-row justify-center items-center p-6 lg:p-24">
           <div class="space-y-5 flex-1">
-            <h1 class="font-bold text-6xl">Ride-on R15 V4 <br> with Smile</h1>
+            <h1 class="font-bold text-2xl lg:text-6xl">Ride-on R15 V4 <br> with Smile</h1>
             <p class="text-base">Amet minim mollit non deserunt ullamco 
               est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
               <button class="btn bg-bike-primary text-white">Purchase</button>
@@ -108,9 +110,9 @@
           </div>
         </div> 
         <div id="slide2" class="carousel-item relative w-full">
-          <div class="flex flex-col lg:flex-row justify-center items-center pt-32 p-6 lg:p-24">
+          <div class="flex flex-col lg:flex-row justify-center items-center p-6 lg:p-24">
             <div class="space-y-5 flex-1">
-              <h1 class="font-bold text-6xl">Ride-on R15 V4 <br> with Smile</h1>
+              <h1 class="font-bold text-2xl lg:text-6xl">Ride-on R15 V4 <br> with Smile</h1>
               <p class="text-base">Amet minim mollit non deserunt ullamco 
                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                 <button class="btn bg-bike-primary text-white">Purchase</button>
@@ -125,9 +127,9 @@
           </div>
         </div> 
         <div id="slide3" class="carousel-item relative w-full">
-          <div class="flex flex-col lg:flex-row justify-center items-center pt-32 p-6 lg:p-24">
+          <div class="flex flex-col lg:flex-row justify-center items-center p-6 lg:p-24">
             <div class="space-y-5 flex-1">
-              <h1 class="font-bold text-6xl">Ride-on R15 V4 <br> with Smile</h1>
+              <h1 class="font-bold text-2xl lg:text-6xl">Ride-on R15 V4 <br> with Smile</h1>
               <p class="text-base">Amet minim mollit non deserunt ullamco 
                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                 <button class="btn bg-bike-primary text-white">Purchase</button>
@@ -142,9 +144,9 @@
           </div>
         </div> 
         <div id="slide4" class="carousel-item relative w-full">
-          <div class="flex flex-col lg:flex-row justify-center items-center pt-32 p-6 lg:p-24">
+          <div class="flex flex-col lg:flex-row justify-center items-center p-6 lg:p-24">
             <div class="space-y-5 flex-1">
-              <h1 class="font-bold text-6xl">Ride-on R15 V4 <br> with Smile</h1>
+              <h1 class="font-bold text-2xl lg:text-6xl">Ride-on R15 V4 <br> with Smile</h1>
               <p class="text-base">Amet minim mollit non deserunt ullamco 
                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                 <button class="btn bg-bike-primary text-white">Purchase</button>
@@ -161,5 +163,63 @@
       </div>
       <!-- Carousel Section Ends -->
     </header>
+    <main class="md:container md:mx-auto">
+      <!-- Featured Bikes Section Starts -->
+      <section class="my-24">
+        <h1 class="text-center uppercase font-semibold text-5xl mb-10">Featured Bikes In This Year</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-6">
+          <div>
+            <img class="w-full rounded-lg" src="./images/others/feature-bike.png" alt="">
+          </div>
+          <div>
+            <img class="w-full rounded-lg" src="./images/others/feature-bike.png" alt="">
+          </div>
+          <div>
+            <img class="w-full rounded-lg" src="./images/others/feature-bike.png" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- Featured Bikes Section Ends -->
+      <!-- latest News Starts -->
+      <h1 class="text-center uppercase font-semibold text-5xl mb-10">latest News</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-6">
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="./images/others/latest1.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title text-latest-primary text-3xl te">Ducati XDIAVEL S-73</h2>
+            <p class="text-latest-secondary text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions">
+              <button class="btn bg-bike-primary text-white">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="./images/others/latest2.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title text-latest-primary text-3xl te">Motorcycles & Scooters</h2>
+            <p class="text-latest-secondary text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions">
+              <button class="btn bg-bike-primary text-white">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="./images/others/latest3.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title text-latest-primary text-3xl te">2021 Honda CBR500R</h2>
+            <p class="text-latest-secondary text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions">
+              <button class="btn bg-bike-primary text-white">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- latest News Ends -->
+      <!-- Happy Clients Starts -->
+      <section>
+        
+      </section>
+      <!-- Happy Clients Ends -->
+    </main>
   </body>
 </html>
